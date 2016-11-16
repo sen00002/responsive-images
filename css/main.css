@@ -1,0 +1,54 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+/*    background-color: */
+}
+h1{
+    text-align: center;
+    color: cornflowerblue;;
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+ img{
+    max-width: 90%;
+}
+li{
+    width: 100%;
+    list-style: none;
+   
+}
+img{
+    display: block;
+     margin: 2rem auto;
+}
+
+
+@media screen and (min-width: 600px){
+    li{
+        width: 50%;
+        float: left;
+    }
+    
+    img{
+        margin: 1rem auto;
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    li{
+        width: 25%;
+        float: right;
+    }
+
+}
